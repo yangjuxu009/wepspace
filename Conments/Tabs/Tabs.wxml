@@ -1,0 +1,2 @@
+<!--Conments/Tabs/Tabs.wxml-->
+<view class="tabP"><view wx:for="{{itemData}}" wx:key="{{item.name}}" data-name="{{item.name}}" bindtap="onClicks">{{item.name}}</view></view>

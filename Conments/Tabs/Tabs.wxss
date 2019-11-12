@@ -1,0 +1,17 @@
+/* Conments/Tabs/Tabs.wxss */
+.tabP{
+  display: flex;
+  
+  
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.tabP view{
+ flex: 1;
+  background: #cccccc;
+  border: 1px solid;
+}
+.tabP .tabC3{
+  min-width: 330rpx;
+}

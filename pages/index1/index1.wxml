@@ -1,0 +1,10 @@
+<!--pages/index1/index1.wxml-->
+<text>pages/index1/index1.wxml</text>
+<Tabs itemData="{{itemData}}" bind:onClicks="onClicks"/>
+<view class="view-input" style="margin-top:20px">
+<input type="text" bindinput="onChangeInput"></input>
+</view>
+<view wx:if="{{view == 'tab1'}}"> WEBVIEW </view>
+<view wx:elif="{{view == 'tab2'}}"> APP </view>
+<view wx:elif="{{view == 'tab3'}}"> APP1 </view>
+<view wx:else="{{view == 'MINA'}}"> MINA </view>
